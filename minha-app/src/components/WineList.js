@@ -1,15 +1,15 @@
 // src/components/WineList.js
 import React from 'react';
-import WineItem from './WineItem';
+import WineCard from './WineCard';
 
 function WineList({ wines }) {
-  return (
-    <div>
-      {wines.map(wine => (
-        <WineItem key={wine.id} wine={wine} />
-      ))}
-    </div>
-  );
-}
-
-export default WineList;
+    return (
+      <div className="wine-list">
+        {wines.map(wine => (
+          <WineCard key={wine.id} wine={wine} />
+        ))}
+      </div>
+    );
+  }
+  
+  export default WineList;
