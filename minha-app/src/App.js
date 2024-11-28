@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import './App.css';
 import WineList from './components/WineList';
@@ -15,11 +14,11 @@ function App() {
   return (
     <div className="Wines">
       <div className='header'>
-      <h1>Loja de Vinhos</h1>
-      <SearchBar setSearchTerm={setSearchTerm} />
+        <h1>Loja de Vinhos</h1>
+        <SearchBar setSearchTerm={setSearchTerm} />
       </div>
       <div className="WineList">
-      <WineList wines={filteredWines} />
+        <WineList wines={filteredWines} />
       </div>
     </div>
   );
