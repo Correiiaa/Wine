@@ -22,18 +22,12 @@
   margin: 10px;
   text-align: center;
   width: 200px; /* Defina uma largura fixa */
-  height: 300px; /* Defina uma altura fixa */
+  height: auto; /* Defina uma altura fixa */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /*ajuda a distribuir o espaço */
 }
 
-.wine-card img {
-  width: 100%;
-  height: auto; /* Mantém a proporção da imagem */
-  max-height: 150px; /* Limita a altura da imagem */
-  border-radius: 8px;
-}
 
 .wine-list {
   display: flex;
