@@ -40,3 +40,10 @@
   flex-wrap: wrap;
   justify-content: space-around; /* Alinha os cards uniformemente */
 }
+
+.search-input {
+  font-size: 12px;
+  padding: 5px;
+  width: 150px;
+  scale: 90%;
+}

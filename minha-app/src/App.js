@@ -15,7 +15,7 @@ function App() {
     <div className="Wines">
       <div className='header'>
         <h1>Loja de Vinhos</h1>
-        <SearchBar setSearchTerm={setSearchTerm} />
+        <SearchBar className="pesquisa" setSearchTerm={setSearchTerm} />
       </div>
       <div className="WineList">
         <WineList wines={filteredWines} />
