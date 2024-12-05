@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="Wines">
       <div className='header'>
-        <h1>Loja de Vinhos</h1>
+        <img src='https://imgur.com/a/6uQSfra' alt='logo'/>
         <SearchBar className="pesquisa" setSearchTerm={setSearchTerm} />
       </div>
       <div className="WineList">
